@@ -1,0 +1,27 @@
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Abdullah Mousselli 
+
+tagline: Graduate Research Assistant at the University of Oklahoma 
+
+sass:
+  sass_dir: assets/css
+  style: expanded
+
+collections:
+  AI:
+    output: true
+    permalink: /:collection/:path
+  web:
+    output: true
+    permalink: /:collection/:path
+  others:
+    output: true
+    permalink: /:collection/:path
+    
+include: ["_pages"]
